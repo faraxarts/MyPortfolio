@@ -7,7 +7,7 @@ export const siteConfig = {
   email: "ayenifaramade@gmail.com",
   linkedin: "https://www.linkedin.com/in/faramade-ayeni",
   github: "https://github.com/faraxarts",
-  cv: "/cv/Faramade_Michael_Ayeni_Academic_CV.pdf",
+  cv: "/cv/Faramade-Ayeni_CV.pdf",
 };
 
 export const navigation = [
