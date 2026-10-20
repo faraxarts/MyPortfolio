@@ -17,7 +17,7 @@ const focusAreas = [
 export default function Home() {
   return (
     <>
-      <section className="container-shell grid min-h-[calc(100vh-4rem)] items-center gap-12 py-20 lg:grid-cols-[1.45fr_0.75fr]">
+     <section className="container-shell grid min-h-[calc(100vh-4rem)] items-center gap-12 py-20 lg:grid-cols-[minmax(0,1.45fr)_minmax(0,0.75fr)]">
         <div>
           <p className="eyebrow">Faramade Michael Ayeni</p>
           <h1 className="display-title mt-5">Building intelligent systems that move AI into practice.</h1>
@@ -73,8 +73,8 @@ export default function Home() {
 
       <section className="section-space" id="research">
         <div className="container-shell">
-          <div className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] lg:items-start">
-            <div>
+          <div className="grid min-w-0 gap-10 lg:grid-cols-[minmax(0,0.95fr)_minmax(0,1.05fr)] lg:items-start">
+            <div className="min-w-0">
               <p className="eyebrow">Featured research</p>
               <div className="mt-4"><StatusPill>{tara.status}</StatusPill></div>
               <h2 className="section-title mt-5">{tara.name} — {tara.fullName}</h2>
@@ -86,7 +86,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="card p-5 sm:p-7">
+            <div className="card min-w-0 overflow-hidden p-5 sm:p-7">
               <div className="grid grid-cols-2 gap-5 sm:grid-cols-4">
                 {tara.metrics.map((metric) => (
                   <div className="metric" key={metric.label}>
@@ -137,7 +137,7 @@ export default function Home() {
       </section>
 
       <section className="section-space">
-        <div className="container-shell grid gap-12 lg:grid-cols-[0.8fr_1.2fr]">
+        <div className="container-shell grid gap-12 lg:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
           <div>
             <p className="eyebrow">Software engineering</p>
             <h2 className="section-title mt-4">AI is stronger when it can become a complete system.</h2>

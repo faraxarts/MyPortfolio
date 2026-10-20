@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="prose-shell">
           <p>I am a First-Class Computer Science graduate from Kwara State University with hands-on experience spanning low-resource speech-recognition research and full-stack software engineering.</p>
           <p>My current direction is Applied Artificial Intelligence and Intelligent Systems: building systems that combine machine learning, data, domain knowledge, and sound software engineering to solve practical problems.</p>
-          <p>My undergraduate research on tone-aware Yorùbá automatic speech recognition introduced me to the full research cycle — from data representation and preprocessing through model training, evaluation, error analysis, and system integration. Alongside that research, I have continued designing intelligent systems for academic planning, market decision support, and professional career discovery.</p>
+          <p>My undergraduate research on tone-aware Yorùbá language automatic speech recognition introduced me to the full research cycle — from data representation and preprocessing through model training, evaluation, error analysis, and system integration. Alongside that research, I have continued designing intelligent systems for academic planning, market decision support, and professional career discovery.</p>
           <p>I am particularly interested in graduate research opportunities involving Applied AI, speech and language technologies, low-resource AI, machine-learning systems, and intelligent decision support.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a className="button button-primary" href={`mailto:${siteConfig.email}`}>Get in touch</a>

@@ -1,8 +1,8 @@
 export type ProjectStatus =
   | "Research Project · Completed"
   | "Functional MVP · Active Development"
-  | "System Design · Pre-Implementation"
-  | "Product Architecture · Pre-Implementation"
+  | "System Design · Active Development"
+  | "Product Architecture · Active Development"
   | "Built & Deployed";
 
 export type Project = {
@@ -32,18 +32,18 @@ export const projects: Project[] = [
     name: "Market Intelligence System",
     kicker: "Location-Aware Intelligence for Small Retailers",
     description:
-      "A designed decision-support system for small Dangote Cement retailers, combining trust-weighted local price observations, inventory data, statistical intelligence, and evidence-backed recommendations.",
-    status: "System Design · Pre-Implementation",
+      "An actively developed decision-support system for small Dangote Cement retailers, combining trust-weighted local price observations, inventory data, statistical intelligence, and evidence-backed recommendations.",
+    status: "System Design · Active Development",
     tags: ["Applied AI", "Market Intelligence", "Decision Support", "System Architecture"],
     href: "/projects/market-intelligence",
   },
   {
     slug: "portfoliai",
-    name: "PortfoliAI",
+    name: "Portfolio Generator",
     kicker: "AI-Powered Career Discovery & Portfolio Generation",
     description:
-      "A planned multi-stage AI platform that transforms scattered career evidence into Career DNA, professional positioning, structured portfolio content, and publishable digital portfolios.",
-    status: "Product Architecture · Pre-Implementation",
+      "An actively developed multi-stage AI platform that transforms scattered career evidence into Career DNA, professional positioning, structured portfolio content, and publishable digital portfolios.",
+    status: "Product Architecture · Active Development",
     tags: ["Generative AI", "LLM Systems", "Personalisation", "Product Architecture"],
     href: "/projects/portfoliai",
   },
